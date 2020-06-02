@@ -1,0 +1,19 @@
+.info {
+  $root: &;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 740px;
+  background-color: $basic-white;
+
+  &__content {
+    padding-left: 95px;
+    padding-right: 95px;
+    flex-direction: column;
+  }
+
+  &__col {
+    max-height: 265px;
+  }
+
+}

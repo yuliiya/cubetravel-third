@@ -8,14 +8,16 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 12px 48px;
-  color: $basic-black;
+  padding: 12px 33px;
+  background-color: $basic-black;
+  color: $basic-white;
   font-size: 14px;
   font-family: $font-roboto-bold;
   line-height: 1.71;
   letter-spacing: 1.5px;
   border: none;
   user-select: none;
+  text-transform: uppercase;
 
   &:hover {
     text-decoration: none;

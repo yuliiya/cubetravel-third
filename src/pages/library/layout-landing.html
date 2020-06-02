@@ -3,10 +3,11 @@
     @include('components/shared/layout/header/header.html')
     @include('components/shared/layout/header-fixed/header-fixed.html')
   </header>
-  <main class="container-fluid">
-    <div class="container-xl">
-
-    </div>
+  <main class="container-fluid overflow-hidden">
+    @include('components/features/hero-section/index.html')
+    @include('components/features/info-section/index.html')
+    @include('components/features/cardholder-section/index.html')
+    @include('components/features/social-section/index.html')
   </main>
   <footer class="container-fluid">
     @include('components/shared/layout/footer/footer.html')

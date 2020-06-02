@@ -1,0 +1,11 @@
+.social {
+  $root: &;
+
+  background-color: $light-grey-blue;
+
+  &__content {
+    min-height: 360px;
+    padding: 100px 95px 80px;
+  }
+
+}

@@ -1,0 +1,39 @@
+.main {
+
+  &__title {
+    font-family: $font-archivo-black;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: -0.2px;
+    color: $basic-black;
+
+    &--mb {
+      margin-bottom: 50px;
+    }
+  };
+
+  &__subtitle {
+    font-family: $font-archivo-black;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+    color: $basic-black;
+  }
+
+  &__desc {
+    font-family: $font-roboto-bold;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 1.5px;
+    color: $basic-black;
+  }
+
+  &__text {
+    font-family: $font-roboto-regular;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.2px;
+    color: $woodsmoke;
+  }
+}
+

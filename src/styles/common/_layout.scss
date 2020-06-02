@@ -10,97 +10,17 @@
   justify-content: space-between;
   min-width: map-get($container-max-widths, xs);
 
-  &__container {
-    @include make-container();
-    @include make-container-max-widths();
-    //@include make-container-with-layout-gutter();
-
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-  }
-
-  &__row {
-    @include make-row();
-
-    &--gutter {
-      @include make-row(px-to-rem(30px));
-    }
-  }
-
-  &__col {
-    @include make-col-ready();
-  }
-
-  &__base {
-    display: flex;
-    flex-grow: 1;
-  }
-
-  &__header {
-    min-height: $layout-header-min-height;
-  }
-
-  &__footer {
-    min-height: $layout-footer-min-height;
-  }
-
-  &__add {
-    min-height: auto;
-  }
-
-  &__base {
-
-  }
-
   &__section {
     min-height: auto;
+
+    &--padding {
+      padding: 100px 0;
+    }
   }
 
   &__base,
   &__section {
     display: flex;
     flex-grow: 1;
-  }
-
-  &__headline {
-
-  }
-
-  &__main {
-    @include make-col-ready(px-to-rem(30px));
-  }
-
-  &__sidebar-primary {
-    @include media-breakpoint-down(lg) {
-      @include make-col(100, 100, px-to-rem(30px));
-    }
-
-    @include make-col-fix(px-to-rem(300px), px-to-rem(30px));
-  }
-
-  &__sidebar-secondary {
-    @include media-breakpoint-down(lg) {
-      @include make-col(100, 100, px-to-rem(30px));
-    }
-
-    @include make-col(30, 100, px-to-rem(30px));
-  }
-
-  &--viewport-height {
-
-    #{$root}__container {
-      // Change it when you need to implement viewport-height modifier
-      height: calc(100vh - #{$layout-header-min-height} - #{$layout-footer-min-height});
-    }
-
-    #{$root}__row {
-      overflow: hidden;
-    }
-
-    #{$root}__col {
-      height: 100%;
-      overflow: auto;
-    }
   }
 }

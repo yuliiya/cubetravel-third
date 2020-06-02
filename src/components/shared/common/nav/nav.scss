@@ -8,13 +8,14 @@
 
   display: flex;
   align-items: center;
+  margin: 0;
   font-size: 14px;
   font-family: $font-roboto-bold;
   line-height: 1.71;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 
-  .nav-item {
+  &__item {
 
     &:not(:last-of-type) {
       position: relative;
@@ -34,7 +35,7 @@
     }
   }
 
-  .nav-link {
+  &__link {
     color: $basic-white;
     padding: 0;
 
@@ -50,8 +51,9 @@
     }
   }
 
-  &-button {
+  &__button {
     padding: 8px 36px;
+    cursor: pointer;
     border: 1px solid $light-grey-blue;
 
     .nav-link {
