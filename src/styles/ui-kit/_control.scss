@@ -1,0 +1,150 @@
+/* ==========================================================================
+   Ui-kit component -- control
+   ========================================================================== */
+
+/*
+   Control-close
+   -------------------------------------------------------------------------- */
+
+.control-close {
+  $root: &;
+  //@include media-breakpoint-down(md) {}
+
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-indent: -9999px;
+  background-color: aqua;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+
+  &::after {
+    //@include sprite($icon-instagram);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: darkviolet;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    content: "";
+  }
+
+  //svg {
+  //  position: absolute;
+  //  top: 50%;
+  //  left: 50%;
+  //  width: 25px;
+  //  height: 100%;
+  //  padding: 0;
+  //  transform: translate(-50%, -50%);
+  //}
+}
+
+/*
+   Control-arrow
+   -------------------------------------------------------------------------- */
+
+.control-arrow {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 50px;
+  text-indent: -9999px;
+  background-color: aqua;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+
+  &::after {
+    //@include sprite($icon-instagram);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: darkviolet;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    content: "";
+  }
+
+  &--prev {
+
+    &::after {
+
+    }
+  }
+
+  &--next {
+
+    &::after {
+
+    }
+  }
+
+  //svg {
+  //  position: absolute;
+  //  top: 50%;
+  //  left: 50%;
+  //  width: 25px;
+  //  height: 100%;
+  //  padding: 0;
+  //  transform: translate(-50%, -50%);
+  //}
+
+  //&--prev {
+  //
+  //  svg {
+  //
+  //  }
+  //}
+  //
+  //&--next {
+  //
+  //  svg {
+  //
+  //  }
+  //}
+}
+
+/*
+   Control-pagination
+   -------------------------------------------------------------------------- */
+
+.control-pagination {
+
+  // Slick pagination
+
+  .slick-dots {
+    display: inline-block;
+    //font-size: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
+  button {
+    width: 30px;
+    height: 30px;
+    //text-indent: -9999px;
+    background-color: aqua;
+    border: none;
+  }
+
+  .slick-active {
+
+    button {
+      background-color: red;
+    }
+  }
+}

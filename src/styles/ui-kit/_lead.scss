@@ -1,0 +1,29 @@
+/* ==========================================================================
+   Ui-kit component -- lead
+   ========================================================================== */
+
+.lead {
+  $root: &;
+  //@include media-breakpoint-down(md) {}
+
+  position: relative;
+  padding-bottom: 10px;
+
+  &::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 5px;
+    background-color: $black;
+    content: "";
+  }
+
+  &__heading {
+    margin: 0 0 20px 0;
+  }
+
+  &__desc {
+    margin: 0;
+  }
+}

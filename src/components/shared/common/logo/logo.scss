@@ -1,0 +1,24 @@
+/* ==========================================================================
+   Component -- logo
+   ========================================================================== */
+
+.logo {
+  $root: &;
+  //@include media-breakpoint-down(md) {}
+
+  display: inline-block;
+  width: px-to-rem(200px);
+  height: px-to-rem(100px);
+  text-decoration: none;
+
+  img {
+    width: 100%;
+    height: 100%;
+    background-color: darkviolet;
+  }
+
+  &--small {
+    width: px-to-rem(100px);
+    height: px-to-rem(50px);
+  }
+}

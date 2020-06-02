@@ -1,0 +1,36 @@
+/* ==========================================================================
+   Component -- icon-svg
+   ========================================================================== */
+
+.icon-png {
+  $root: &;
+  //@include media-breakpoint-down(md) {}
+
+  position: relative;
+  width: px-to-rem(40px);
+  height: px-to-rem(40px);
+  text-indent: -9999px;
+  background-color: aqua;
+
+  &::after {
+    @extend %centring-position;
+
+    width: 50%;
+    height: 50%;
+    background-color: darkviolet;
+    border-radius: 50%;
+    content: "";
+  }
+
+  &--size-inherit {
+    width: 100%;
+    height: 100%;
+  }
+
+  //&--name {
+  //
+  //  &::after {
+  //    //@include sprite($icon-instagram);
+  //  }
+  //}
+}

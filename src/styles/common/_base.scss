@@ -1,0 +1,27 @@
+/* ==========================================================================
+   Common -- base
+   ========================================================================== */
+
+html {
+  //@include media-breakpoint-down(lg) {
+  //  font-size: 5px;
+  //}
+
+  box-sizing: border-box;
+  height: 100%;
+  font-size: $default-font-size;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100%;
+  color: $body-color;
+  font-size: $body-font-size;
+  font-family: $body-font-family;
+  background-color: $body-bg;
+}

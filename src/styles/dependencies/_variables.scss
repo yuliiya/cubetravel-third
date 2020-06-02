@@ -1,0 +1,66 @@
+// =============================================================================
+// Constants
+// =============================================================================
+
+// Colors
+$white:           #fff;
+$black:           #000;
+$basic-black:     #141d20;
+$basic-white:     #f2f4f8;
+$light-peach:     #f6d3b9;
+$light-grey-blue: #abc6cb;
+
+// Fonts
+$secure-fonts: Arial, Helvetica, "Nimbus Sans", Sans-serif;
+$font-archivo-black: ArchivoBlack, $secure-fonts;
+$font-roboto-regular: RobotoRegular, $secure-fonts;
+$font-roboto-bold: RobotoBold, $secure-fonts;
+$default-font-size: 16px;
+
+// =============================================================================
+// Variables
+// =============================================================================
+
+// body
+$body-bg: $white;
+$body-color: $black;
+$body-font-family: $font-archivo-black;
+$body-font-size: $default-font-size;
+
+// Layout
+$layout-gutter-widths: (
+  sm: px-to-rem(30px),
+  xl: px-to-rem(60px)
+);
+$layout-header-min-height: px-to-rem(150px);
+$layout-footer-min-height: px-to-rem(300px);
+
+// Grid
+$enable-grid-classes: true;
+$grid-columns: 100;
+$grid-gutter-width: 0;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+// Desktop-only version
+//$container-max-widths: (
+//  sm: 1200px
+//);
+
+// Responsive version
+$container-max-widths: (
+  xs: 320px,
+  sm: 520px,
+  xl: 1200px
+);
+
+// Popups
+$popup-overlay-bg: $black;
+$popup-overlay-opacity: 0.8;
+$popup-width: 800px;

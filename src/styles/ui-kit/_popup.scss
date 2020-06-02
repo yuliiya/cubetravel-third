@@ -1,0 +1,50 @@
+/* ==========================================================================
+   Ui-kit component -- popup
+   ========================================================================== */
+
+.fancybox-bg {
+  background: $popup-overlay-bg;
+}
+
+.fancybox-is-open {
+
+  .fancybox-bg {
+    opacity: $popup-overlay-opacity;
+  }
+}
+
+.popup {
+  $root: &;
+  //@include media-breakpoint-down(md) {}
+
+  position: relative;
+  display: none;
+  width: $popup-width;
+  text-align: center;
+
+  &__header {
+    margin-bottom: 20px;
+  }
+
+  &__main {
+    margin-bottom: 20px;
+  }
+
+  &__footer {
+
+  }
+
+  &__heading {
+    margin: 0;
+  }
+
+  &__desc {
+    margin: 0;
+  }
+
+  &__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+}

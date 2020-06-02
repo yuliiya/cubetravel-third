@@ -1,0 +1,7 @@
+/node_modules
+/design
+.idea/
+/dev
+/library
+/build
+./**/*.sass-cache

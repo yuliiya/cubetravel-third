@@ -1,0 +1,38 @@
+/* ==========================================================================
+   Ui-kit component -- btn
+   ========================================================================== */
+
+.btn {
+  $root: &;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 48px;
+  color: $basic-black;
+  font-size: 14px;
+  font-family: $font-roboto-bold;
+  line-height: 1.71;
+  letter-spacing: 1.5px;
+  border: none;
+  user-select: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:disabled {
+    opacity: 0.8;
+  }
+
+  &--block {
+    display: flex;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}

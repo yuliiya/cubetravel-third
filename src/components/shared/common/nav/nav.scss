@@ -1,0 +1,61 @@
+/* ==========================================================================
+   Component -- nav
+   ========================================================================== */
+
+.navigation {
+  $root: &;
+  //@include media-breakpoint-down(md) {}
+
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: $font-roboto-bold;
+  line-height: 1.71;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  .nav-item {
+
+    &:not(:last-of-type) {
+      position: relative;
+      margin-right: 48px;
+
+      &:hover {
+
+        &:before {
+          content: '→';
+          color: $basic-white;
+          position: absolute;
+          left: -20px;
+          top: 40%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+  }
+
+  .nav-link {
+    color: $basic-white;
+    padding: 0;
+
+    &:hover {
+      text-decoration: none;
+      color: $light-grey-blue;
+    }
+
+    &.active,
+    &.active:hover {
+      color: $light-grey-blue;
+      text-decoration: none;
+    }
+  }
+
+  &-button {
+    padding: 8px 36px;
+    border: 1px solid $light-grey-blue;
+
+    .nav-link {
+      padding: 0;
+    }
+  }
+}

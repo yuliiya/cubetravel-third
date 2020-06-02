@@ -1,0 +1,5 @@
+@include('../node_modules/jquery/dist/jquery.min.js')
+//('../node_modules/jquery-ui-dist/jquery-ui.min.js')
+@include('../node_modules/jquery-migrate/dist/jquery-migrate.min.js')
+@include('../node_modules/slick-carousel/slick/slick.min.js')
+@include('../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js')
