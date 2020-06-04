@@ -4,8 +4,9 @@
   background-color: $light-grey-blue;
 
   &__content {
+    display: flex;
     min-height: 360px;
-    padding: 100px 95px 80px;
+    padding: 100px 95px;
   }
 
 }

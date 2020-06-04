@@ -9,11 +9,14 @@
   &__content {
     padding-left: 95px;
     padding-right: 95px;
+    display: flex;
     flex-direction: column;
   }
 
   &__col {
-    max-height: 265px;
+    column-count: 2;
+    column-gap: 60px;
+    text-align: left;
   }
 
 }

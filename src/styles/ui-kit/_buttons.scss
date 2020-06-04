@@ -2,7 +2,7 @@
    Ui-kit component -- btn
    ========================================================================== */
 
-.btn {
+.custom-btn {
   $root: &;
 
   display: inline-flex;
@@ -18,13 +18,16 @@
   border: none;
   user-select: none;
   text-transform: uppercase;
+  box-shadow: 0 15px 10px 0 rgba($basic-black, 0.2);
+  transition: color 0.3s;
 
   &:hover {
     text-decoration: none;
+    color: $light-grey-blue;
   }
 
   &:focus {
-    outline: 0;
+    outline: none;
   }
 
   &:disabled {

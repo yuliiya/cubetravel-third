@@ -1,0 +1,52 @@
+/* ==========================================================================
+   Component -- offer-card
+   ========================================================================== */
+
+.offer-card {
+  $root: &;
+  width: 100%;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &__content {
+    position: relative;
+    padding: 45px 20px 36px;
+    background-color: $basic-white;
+    z-index: 2;
+  }
+
+  &__img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+  }
+
+  &__text {
+    position: relative;
+    z-index: 5;
+  }
+
+  &__label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: $light-peach;
+    min-width: 175px;
+    min-height: 50px;
+    top: -25px;
+    right: -8px;
+  }
+
+  &__info {
+    margin-top: 20px;
+
+    .icon-card {
+      margin-bottom: 15px;
+    }
+  }
+
+}
