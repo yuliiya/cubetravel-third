@@ -1,0 +1,35 @@
+/* ==========================================================================
+   Ui-kit component -- btn
+   ========================================================================== */
+
+.custom-input {
+  $root: &;
+
+    display: inline-block;
+    height: 50px;
+    padding: 12px 24px;
+    background-color: $light-peach;
+    outline: none;
+    font-family: $font-roboto-bold;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 1.5px;
+    color: $mocha;
+    text-transform: uppercase;
+    border: none;
+
+    &--border {
+      border: 1px solid $mocha;
+    }
+
+    &::placeholder {
+      color: $mocha;
+      font-family: $font-roboto-bold;
+    }
+
+    &:focus {
+      outline: none;
+      background-color: $white;
+      color: $basic-black;
+    }
+}

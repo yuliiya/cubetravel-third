@@ -4,13 +4,30 @@
 
 .footer {
   $root: &;
-  //@include media-breakpoint-down(md) {}
 
-  display: flex;
-  flex-direction: column;
-  min-height: inherit;
-  overflow: hidden;
-  background-color: red;
+  &__item {
+    cursor: pointer;
+    color: $white !important;
 
+    .main__desc {
+      color: $white !important;
+    }
 
+    &:hover {
+      text-decoration: none;
+      color: $light-grey-blue !important;
+
+      .main__desc {
+        color: $light-grey-blue !important;
+      }
+    }
+
+    &:not(:last-of-type) {
+      margin-bottom: 24px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 24px;
+  }
 }

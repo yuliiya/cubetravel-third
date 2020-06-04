@@ -1,17 +1,15 @@
 <div>
-  <header class="container-fluid">
+  <header class="fixed-top">
     @include('components/shared/layout/header/header.html')
-    @include('components/shared/layout/header-fixed/header-fixed.html')
   </header>
-  <main class="container-fluid overflow-hidden">
+  <main class="overflow-hidden layout__main">
     @include('components/features/hero-section/index.html')
     @include('components/features/info-section/index.html')
     @include('components/features/cardholder-section/index.html')
     @include('components/features/social-section/index.html')
     @include('components/features/iframe-section/index.html')
+    @include('components/features/subscribe-section/index.html')
     @include('components/features/offers-section/index.html')
+    @include('components/features/complex-footer/index.html')
   </main>
-  <footer class="container-fluid">
-    @include('components/shared/layout/footer/footer.html')
-  </footer>
 </div>

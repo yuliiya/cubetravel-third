@@ -9,4 +9,10 @@
   min-height: 80px;
   overflow: hidden;
   background-color: $basic-black;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }

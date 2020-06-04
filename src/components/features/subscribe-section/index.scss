@@ -1,0 +1,12 @@
+.subscribe {
+  $root: &;
+
+  background-color: $light-peach;
+
+  &__content {
+    display: flex;
+    min-height: 360px;
+    padding: 100px 95px;
+  }
+
+}

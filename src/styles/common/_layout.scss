@@ -11,6 +11,8 @@
   min-width: map-get($container-max-widths, xs);
 
   &__section {
+    display: flex;
+    flex-grow: 1;
     min-height: auto;
 
     &--padding {
@@ -18,9 +20,8 @@
     }
   }
 
-  &__base,
-  &__section {
-    display: flex;
-    flex-grow: 1;
+  &__main {
+    margin-top: 80px;
+    overflow: hidden;
   }
 }

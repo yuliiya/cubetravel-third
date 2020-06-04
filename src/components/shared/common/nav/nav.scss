@@ -23,9 +23,10 @@
 
         &:before {
           content: '→';
-          color: $basic-white;
+          color: $light-grey-blue;
+          font-family: $font-archivo-black;
           position: absolute;
-          left: -20px;
+          left: -15px;
           top: 40%;
           transform: translateY(-50%);
         }
@@ -34,17 +35,17 @@
   }
 
   .nav-link {
-    color: $basic-white;
+    color: $basic-white !important;
     padding: 0;
 
     &:hover {
       text-decoration: none;
-      color: $light-grey-blue;
+      color: $light-grey-blue !important;
     }
 
     &.active,
     &.active:hover {
-      color: $light-grey-blue;
+      color: $light-grey-blue !important;
       text-decoration: none;
     }
   }

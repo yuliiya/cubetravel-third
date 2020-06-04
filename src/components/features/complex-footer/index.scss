@@ -1,0 +1,25 @@
+.complex-footer {
+  $root: &;
+
+  background: url('../../../assets/img/sea.jpg') no-repeat;
+  background-size: cover;
+
+  &__top {
+    min-height: 720px;
+    padding-top: 100px;
+    background-image: linear-gradient(to bottom, $light-peach, rgba(246, 211, 185, 0));
+  }
+
+  &__bottom {
+    display: flex;
+    min-height: 700px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(to bottom, rgba(20, 29, 32, 0), $basic-black 100%);
+  }
+
+  &__info {
+    margin-top: auto;
+    width: 100%;
+  }
+
+}

@@ -35,11 +35,22 @@
   }
 
   &__text {
+    position: relative;
     font-size: 16px;
     font-family: $font-roboto-bold;
     line-height: 1.5;
     letter-spacing: 0.11px;
     color: $woodsmoke;
+
+    &:before {
+      position: absolute;
+      content: "→";
+      left: -40px;
+      top: 0;
+      font-family: $font-archivo-black;
+      font-size: 14px;
+
+    }
   }
 
 }
