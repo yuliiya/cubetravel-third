@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Ui-kit component -- btn
+   Ui-kit component -- input
    ========================================================================== */
 
 .custom-input {
@@ -15,7 +15,6 @@
     line-height: 1.71;
     letter-spacing: 1.5px;
     color: $mocha;
-    text-transform: uppercase;
     border: none;
 
     &--border {
@@ -24,6 +23,7 @@
 
     &::placeholder {
       color: $mocha;
+      text-transform: uppercase;
       font-family: $font-roboto-bold;
     }
 
