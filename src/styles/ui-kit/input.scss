@@ -60,13 +60,13 @@
         -webkit-appearance: none;
       }
 
-      &:after {
-        position: absolute;
-        content: "❯";
-        transform: rotate(90deg) translate(-50%);
-        font-size: 14px;
-        right: -10px;
-        top: 50%;
-      }
+      //&:after {
+      //  position: absolute;
+      //  content: "❯";
+      //  transform: rotate(90deg) translate(-50%);
+      //  font-size: 14px;
+      //  right: -10px;
+      //  top: 50%;
+      //}
     }
 }
