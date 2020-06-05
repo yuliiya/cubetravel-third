@@ -5,8 +5,9 @@
 .navigation {
   $root: &;
 
+  display: flex;
+  justify-content: space-between;
   width: 100%;
-  margin: 0;
   font-size: 14px;
   font-family: $font-roboto-bold;
   line-height: 1.71;
@@ -22,10 +23,10 @@
       &:hover {
 
         &:before {
+          position: absolute;
           content: '→';
           color: $light-grey-blue;
           font-family: $font-archivo-black;
-          position: absolute;
           left: -15px;
           top: 40%;
           transform: translateY(-50%);

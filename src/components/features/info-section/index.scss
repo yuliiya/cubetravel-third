@@ -1,16 +1,10 @@
 .info {
   $root: &;
 
-  display: flex;
-  flex-direction: column;
-  min-height: 740px;
   background-color: $basic-white;
 
   &__content {
-    padding-left: 95px;
-    padding-right: 95px;
-    display: flex;
-    flex-direction: column;
+    padding: 100px 95px;
   }
 
   &__col {

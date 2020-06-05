@@ -1,6 +1,8 @@
 .cardholder {
   $root: &;
 
+  padding: 100px 0;
+
   &__row:nth-of-type(1) {
     .simple-card:nth-child(1) {
       .simple-card__img {
