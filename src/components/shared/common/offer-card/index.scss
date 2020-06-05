@@ -4,14 +4,18 @@
 
 .offer-card {
   $root: &;
-  width: 100%;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
 
   &__content {
+    display: flex;
+    flex-direction: column;
     position: relative;
     padding: 45px 20px 36px;
     background-color: $basic-white;
     z-index: 2;
+    flex-grow: 1;
   }
 
   &__img-wrapper {
@@ -38,6 +42,7 @@
   &__text {
     position: relative;
     z-index: 5;
+    margin-bottom: 20px;
   }
 
   &__label {
@@ -53,9 +58,9 @@
   }
 
   &__info {
-    margin-top: 20px;
+    margin-top: auto;
 
-    .icon-card {
+    .icon-card:not(:last-of-type) {
       margin-bottom: 15px;
     }
   }
