@@ -1,12 +1,6 @@
 .info {
   $root: &;
 
-  background-color: $basic-white;
-
-  &__content {
-    padding: 100px 95px;
-  }
-
   &__col {
     column-count: 2;
     column-gap: 100px;

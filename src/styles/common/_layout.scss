@@ -25,3 +25,31 @@
     overflow: hidden;
   }
 }
+
+.padding-100 {
+  padding: 100px 0;
+}
+
+.padding-all {
+  padding: 110px 95px !important;
+}
+
+.min-height-360 {
+  min-height: 360px;
+}
+
+.bg-peach {
+  background-color: $light-peach;
+}
+
+.bg-gb {
+  background-color: $light-grey-blue;
+}
+
+.bg-basic-black {
+  background-color: $basic-black;
+}
+
+.bg-basic-white {
+  background-color: $basic-white;
+}
