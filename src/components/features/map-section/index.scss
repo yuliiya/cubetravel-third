@@ -1,0 +1,41 @@
+.map {
+  $root: &;
+
+  min-height: 600px;
+  position: relative;
+  background-color: #acc9c6;
+
+  &__img {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url('../../../assets/img/map.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__info {
+    font-family: $font-roboto-regular;
+    font-size: 18px;
+    line-height: 1.78;
+    letter-spacing: 0.2px;
+    color: $gunmetal;
+    display: flex;
+    flex-direction: column;
+    margin-left: 66px;
+  }
+
+  &__link,
+  &__link:hover {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+}
