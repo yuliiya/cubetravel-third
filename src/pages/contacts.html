@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ru">
+  @include('pages/include/head.html')
+
+<body class="layout">
+  @include('pages/include/svg-inline.html')
+
+  <header class="fixed-top">
+    @include('components/shared/layout/header/header.html')
+  </header>
+  <main class="overflow-hidden layout__main">
+    @include('components/features/contact-section/index.html')
+    @include('components/features/social-section/index-contact.html')
+  </main>
+
+  @include('pages/include/scripts.html')
+</body>
+</html>

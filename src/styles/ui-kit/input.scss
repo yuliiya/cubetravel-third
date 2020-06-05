@@ -16,10 +16,7 @@
     letter-spacing: 1.5px;
     color: $mocha;
     border: none;
-
-    &--border {
-      border: 1px solid $mocha;
-    }
+    cursor: pointer;
 
     &::placeholder {
       color: $mocha;
@@ -31,5 +28,45 @@
       outline: none;
       background-color: $white;
       color: $basic-black;
+    }
+
+    &--default {
+      color: $basic-black;
+      background-color: $basic-white;
+
+      &:focus {
+        background-color: $basic-white;
+      }
+
+      &::placeholder {
+        color: $bluish-gray;
+      }
+    }
+
+    &--border {
+      border: 1px solid $mocha;
+    }
+
+    &__textarea {
+      min-height: 245px;
+    }
+
+    &__select {
+      position: relative;
+
+      select {
+        text-transform: uppercase;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+      }
+
+      &:after {
+        position: absolute;
+        content: "❯";
+        transform: rotate(90deg) translate(-50%);
+        font-size: 14px;
+        right: -10px;
+        top: 50%;
+      }
     }
 }

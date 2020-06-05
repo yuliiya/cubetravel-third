@@ -8,6 +8,17 @@
   display: flex;
   flex-direction: column;
 
+  &--wide {
+
+    .offer-card__img-wrapper {
+      height: 430px;
+    }
+
+    .offer-card__content {
+      padding: 50px 20px 55px;
+    }
+  }
+
   &__content {
     display: flex;
     flex-direction: column;
@@ -43,12 +54,6 @@
     }
   }
 
-  &__text {
-    position: relative;
-    z-index: 5;
-    margin-bottom: 20px;
-  }
-
   &__label {
     display: flex;
     justify-content: center;
@@ -61,8 +66,18 @@
     right: -8px;
   }
 
+  &__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+
+  &__text {
+    margin-bottom: 20px;
+  }
+
   &__info {
-    margin-top: auto;
 
     .icon-card:not(:last-of-type) {
       margin-bottom: 15px;

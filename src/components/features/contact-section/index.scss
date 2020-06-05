@@ -1,0 +1,10 @@
+.subscribe {
+  $root: &;
+
+  background-color: $light-peach;
+
+  &__content {
+    padding: 100px 0;
+  }
+
+}

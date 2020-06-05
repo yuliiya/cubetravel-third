@@ -1,0 +1,11 @@
+.offers {
+  $root: &;
+
+  background-color: $white;
+  padding: 100px 0;
+
+  &--pb-only {
+    padding-top: 0;
+    padding-bottom: 100px;
+  }
+}
