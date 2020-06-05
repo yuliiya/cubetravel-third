@@ -16,6 +16,10 @@
     background-color: $basic-white;
     z-index: 2;
     flex-grow: 1;
+
+    &--small {
+      padding: 15px 20px 24px;
+    }
   }
 
   &__img-wrapper {
