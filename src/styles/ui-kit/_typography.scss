@@ -30,11 +30,15 @@
     text-transform: uppercase;
 
     &--accent {
-      color: $mocha !important;
+      color: $mocha;
     }
 
     &--primary {
-      color: $light-grey-blue !important;
+      color: $light-grey-blue;
+    }
+
+    &--secondary {
+      color: $gunmetal;
     }
 
   }

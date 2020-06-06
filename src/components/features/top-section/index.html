@@ -1,9 +1,13 @@
 <div class="padding-100">
   <div class="container-xl">
-    <h3 class="main__title main__title--mb text-center">Special Offers</h3>
     <div class="row">
-      @include('components/shared/common/offer-card/index.html')
-      @include('components/shared/common/offer-card/offer_card_2.html')
+      <h3 class="main__title main__title--mb col-lg-4">Top Selling Things To Do</h3>
+      <div class="col-lg-8 mb-4 mb-lg-0">
+        @include('components/shared/common/filter-form/index.html')
+      </div>
+    </div>
+    <div class="row">
+      @include('components/shared/common/offer-card/offer_card_wide.html')
       @include('components/shared/common/offer-card/index.html')
     </div>
     <div class="row mt-4">

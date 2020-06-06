@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-width: map-get($container-max-widths, xs);
+  //min-width: map-get($container-max-widths, xs);
 
   &__section {
     display: flex;
@@ -24,4 +24,40 @@
     margin-top: 80px;
     overflow: hidden;
   }
+}
+
+.padding-100 {
+  padding: 100px 0;
+}
+
+.padding-all {
+  padding: 110px 95px !important;
+
+  @media (max-width: (576px)) {
+    padding: 110px 30px !important;
+  }
+}
+
+.padding-b-100 {
+  padding-bottom: 100px;
+}
+
+.min-height-360 {
+  min-height: 360px;
+}
+
+.bg-peach {
+  background-color: $light-peach;
+}
+
+.bg-gb {
+  background-color: $light-grey-blue;
+}
+
+.bg-basic-black {
+  background-color: $basic-black;
+}
+
+.bg-basic-white {
+  background-color: $basic-white;
 }
