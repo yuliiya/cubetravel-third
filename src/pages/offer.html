@@ -1,6 +1,18 @@
 <!doctype html>
 <html lang="ru">
-  @include('pages/include/head.html')
+<head>
+  <meta charset="utf-8">
+  <title>Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.1">
+
+  <link href="./styles/style.css" rel="stylesheet">
+  <link href="./styles/vendors.css" rel="stylesheet">
+  <link href="./styles/ui-kit.css" rel="stylesheet">
+  <link href="./styles/components.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
 
 <body class="layout">
   @include('pages/include/svg-inline.html')
@@ -18,6 +30,12 @@
     </footer>
   </main>
 
-  @include('pages/include/scripts.html')
+  <!-- build:js -->
+  <script src="./js/vendors.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="./js/ui-kit.js"></script>
+  <!-- endbuild -->
 </body>
 </html>
