@@ -41,6 +41,10 @@
     background-color: $basic-black;
     flex-shrink: 0;
 
+    &:focus {
+      outline: none;
+    }
+
     svg {
       width: 16px;
       height: 16px;
