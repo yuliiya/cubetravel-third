@@ -1,0 +1,23 @@
+/* ==========================================================================
+   Ui-kit component -- select
+   ========================================================================== */
+
+
+.select-custom {
+  background-image: url("../../assets/img/drop-down.svg");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-transform: uppercase;
+
+  option {
+    text-transform: none;
+  }
+}
+
+select::-ms-expand {
+  display: none;
+}
