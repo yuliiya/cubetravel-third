@@ -1,0 +1,32 @@
+<form class="quote-form">
+  <div class="quote-form__item">
+    <span class="main__desc">Number of people</span>
+    <div class="d-flex align-items-center">
+      <button class="custom-btn custom-btn--icon">
+        <svg>
+          <use xlink:href="#plus-white"/>
+        </svg>
+      </button>
+      <input class="custom-input custom-input--border quote-form__input" value="1" />
+      <button class="custom-btn custom-btn--icon">
+        <svg>
+          <use xlink:href="#minus"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="quote-form__item">
+    <input class="custom-input custom-input--border quote-form__date"
+           placeholder="start"/>
+    <span class="main__desc">—</span>
+    <input class="custom-input custom-input--border quote-form__date"
+           placeholder="end"/>
+  </div>
+  <input class="custom-input custom-input--border w-100 mb-3" type="email" name="email"
+         placeholder="your e-mail" />
+  <input class="custom-input custom-input--border w-100 mb-3" type="tel" name=""
+         placeholder="phone" />
+  <textarea name="message" class="custom-input custom-input--border w-100 mb-3"
+            placeholder="your message"></textarea>
+  <button class="custom-btn w-100">submit</button>
+</form>

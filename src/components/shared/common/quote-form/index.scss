@@ -1,0 +1,29 @@
+/* ==========================================================================
+   Component -- quote-form
+   ========================================================================== */
+
+.quote-form {
+  $root: &;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+  }
+
+  &__input,
+  &__date {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+  }
+
+  &__input {
+    width: 60px;
+  }
+
+  &__date {
+    width: 125px;
+  }
+}

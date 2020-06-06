@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ru">
+  @include('pages/include/head.html')
+
+<body class="layout">
+  @include('pages/include/svg-inline.html')
+
+  <header class="fixed-top">
+    @include('components/shared/layout/header/header.html')
+  </header>
+  <main class="overflow-hidden layout__main">
+    @include('components/features/hero-section/offer-hero.html')
+    @include('components/features/info-section/info-offer.html')
+    @include('components/features/quote-section/index.html')
+    @include('components/features/offers-section/index.html')
+    <footer class="bg-basic-black container-fluid padding-100">
+      @include('components/shared/layout/footer/footer.html')
+    </footer>
+  </main>
+
+  @include('pages/include/scripts.html')
+</body>
+</html>

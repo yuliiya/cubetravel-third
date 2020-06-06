@@ -18,9 +18,7 @@
     top: 28px;
     bottom: -28px;
     left: 95px;
-    background: url('../../../assets/img/hero.jpg') no-repeat;
-    background-size: cover;
-    background-position: center center;
+    object-fit: cover;
   }
 
   &__info {
@@ -31,6 +29,10 @@
     max-width: 570px;
     width: 100%;
     z-index: 10;
+
+    @media (max-width: (768px)) {
+      top: 100px;
+    }
   }
 
   &__text {
@@ -50,6 +52,18 @@
       font-size: 14px;
 
     }
+  }
+
+  &__action {
+    position: absolute;
+    right: -30px;
+
+    @media (max-width: (768px)) {
+      position: relative;
+      right: 0;
+      margin-top: 30px;
+    }
+
   }
 
 }
