@@ -32,6 +32,10 @@
 
 .padding-all {
   padding: 110px 95px !important;
+
+  @media (max-width: (576px)) {
+    padding: 110px 30px !important;
+  }
 }
 
 .padding-b-100 {
