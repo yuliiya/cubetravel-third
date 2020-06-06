@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-width: map-get($container-max-widths, xs);
+  //min-width: map-get($container-max-widths, xs);
 
   &__section {
     display: flex;

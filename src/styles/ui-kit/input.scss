@@ -50,23 +50,24 @@
     &__textarea {
       min-height: 245px;
     }
+}
 
-    &__select {
-      position: relative;
+/* ==========================================================================
+   Ui-kit component -- select
+   ========================================================================== */
 
-      select {
-        text-transform: uppercase;
-        -moz-appearance: none;
-        -webkit-appearance: none;
-      }
 
-      //&:after {
-      //  position: absolute;
-      //  content: "❯";
-      //  transform: rotate(90deg) translate(-50%);
-      //  font-size: 14px;
-      //  right: -10px;
-      //  top: 50%;
-      //}
-    }
+.select-custom {
+  background-image: url("../../assets/img/drop-down.svg");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-transform: uppercase;
+}
+
+select::-ms-expand {
+  display: none;
 }

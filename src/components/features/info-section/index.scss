@@ -5,6 +5,10 @@
     column-count: 2;
     column-gap: 100px;
     text-align: left;
+
+    @media (max-width: 768px) {
+      column-count: 1;
+    }
   }
 
 }
