@@ -17,4 +17,9 @@
       }
     }
   })
+
+  $(".owl-stage-outer").attr({
+    'data-toggle': 'modal',
+    'data-target': '#lightboxModal',
+  });
 }($));
