@@ -1,0 +1,16 @@
+/* ==========================================================================
+   Ui-kit custom-modal (lighbox)
+   ========================================================================== */
+
+.custom-modal {
+  $root: &;
+  background-color: rgba($basic-black, 0.6);
+
+  .modal-content {
+    background: transparent;
+  }
+
+  .modal-header {
+    border-bottom: none;
+  }
+}
