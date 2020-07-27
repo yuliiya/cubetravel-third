@@ -13,43 +13,76 @@
     }
   };
 
+  &__heading {
+    font-family: $font-barlow;
+    font-size: 48px;
+    font-stretch: condensed;
+    line-height: 1.17;
+
+    &--white {
+      color: $white;
+    }
+  }
+
   &__subtitle {
-    font-family: $font-archivo-black;
-    font-size: 20px;
-    line-height: 1.5;
-    letter-spacing: 0.15px;
+    font-family: $font-barlow;
+    font-size: 24px;
+    font-stretch: condensed;
+    line-height: 1.17;
+    letter-spacing: 1px;
     color: $basic-black;
     margin-bottom: 0;
+
+    &--white {
+      color: $white;
+    }
   }
 
   &__desc {
-    font-family: $font-roboto-bold;
+    font-family: $font-ibm-medium;
     font-size: 14px;
+    font-weight: 500;
     line-height: 1.71;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.75px;
     color: $basic-black;
     text-transform: uppercase;
 
-    &--accent {
-      color: $mocha;
+    &--white {
+      color: $white;
     }
 
+    //&--accent {
+    //  color: $mocha;
+    //}
+    //
     &--primary {
       color: $light-grey-blue;
     }
 
-    &--secondary {
-      color: $gunmetal;
-    }
+    //&--secondary {
+    //  color: $gunmetal;
+    //}
 
   }
 
   &__text {
-    font-family: $font-roboto-regular;
+    font-family: $font-imb-regular;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.2px;
     color: $woodsmoke;
     margin-bottom: 0;
+
+    &--white {
+      color: $white;
+    }
+  }
+
+  &__info {
+    font-family: $font-imb-semi;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.2px;
+    color: $basic-black;
   }
 }

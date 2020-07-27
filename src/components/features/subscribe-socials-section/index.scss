@@ -1,0 +1,25 @@
+.subscribe {
+  $root: &;
+
+  background: url('../../../assets/img/sea.jpg');
+
+  &__form,
+  &__social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__form {
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background-color: rgba(20, 29, 32, 0.5);
+    flex-direction: column;
+  }
+
+  &__social {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.75);
+  }
+}

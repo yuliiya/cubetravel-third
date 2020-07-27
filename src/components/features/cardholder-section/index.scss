@@ -1,48 +1,6 @@
 .cardholder {
   $root: &;
 
-  &__row:nth-of-type(1) {
-    .simple-card:nth-child(1) {
-      .simple-card__img {
-        height: 400px;
-      }
-    }
-
-    .simple-card:nth-child(2) {
-      .simple-card__img {
-        height: 370px;
-      }
-    }
-
-    .simple-card:nth-child(3) {
-      .simple-card__img {
-        height: 340px;
-      }
-    }
-  }
-
-  &__row:nth-of-type(2) {
-    .simple-card:nth-child(1) {
-      margin-top: 30px;
-      .simple-card__img {
-        height: 340px;
-      }
-    }
-
-    .simple-card:nth-child(2) {
-      .simple-card__img {
-        height: 370px;
-      }
-    }
-
-    .simple-card:nth-child(3) {
-      margin-top: -30px;
-      .simple-card__img {
-        height: 400px;
-      }
-    }
-  }
-
   &__btn {
     margin-top: 100px;
     text-align: center;

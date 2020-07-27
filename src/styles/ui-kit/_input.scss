@@ -7,44 +7,26 @@
 
     display: inline-block;
     height: 50px;
-    padding: 12px 24px;
-    background-color: $light-peach;
+    padding: 12px 30px;
     outline: none;
-    font-family: $font-roboto-bold;
+    font-family: $font-imb-regular;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 1.5px;
-    border: none;
     cursor: pointer;
+    border: 1px solid $bluish-gray;
 
     &::placeholder {
-      color: $mocha;
-      text-transform: uppercase;
-      font-family: $font-roboto-bold;
+      color: $bluish-gray;
     }
 
     &:focus {
       outline: none;
       background-color: $white;
       color: $basic-black;
+      border: 1px solid $basic-black;
     }
 
-    &--default {
-      color: $basic-black;
-      background-color: $basic-white;
-
-      &:focus {
-        background-color: $basic-white;
-      }
-
-      &::placeholder {
-        color: $bluish-gray;
-      }
-    }
-
-    &--border {
-      border: 1px solid $mocha;
-    }
 
     &__textarea {
       min-height: 245px;

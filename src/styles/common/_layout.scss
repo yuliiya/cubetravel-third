@@ -26,6 +26,10 @@
   }
 }
 
+.margin-top-100 {
+  margin-top: 100px;
+}
+
 .padding-100 {
   padding: 100px 0;
 }
@@ -60,4 +64,22 @@
 
 .bg-basic-white {
   background-color: $basic-white;
+}
+
+.parallax-window {
+  position: relative;
+  min-height: 1600px;
+  background: transparent;
+}
+
+.bg-light-blue {
+  background-color: $light-blue;
+}
+
+.parallax-window {
+  min-height: 1500px;
+}
+
+.parallax {
+  min-height: 800px;
 }

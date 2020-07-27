@@ -20,20 +20,20 @@
 
   &__item {
     cursor: pointer;
-    color: $basic-white;
+    color: $basic-black;
     transition: color 0.3s;
 
     .main__desc {
-      color: $basic-white;
+      color: $basic-black;
       transition: color 0.3s;
     }
 
     &:hover {
       text-decoration: none;
-      color: $light-grey-blue;
+      color: $bluish-gray;
 
       .main__desc {
-        color: $light-grey-blue;
+        color: $bluish-gray;
       }
     }
 
