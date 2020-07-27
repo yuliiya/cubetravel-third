@@ -16,6 +16,13 @@ $bluish-gray:     #75969d;
 
 // Fonts
 $secure-fonts: Arial, Helvetica, "Nimbus Sans", Sans-serif;
+$font-barlow: BarlowBold, $secure-fonts;
+$font-ibm-medium: IBMPlexSansMedium, $secure-fonts;
+$font-imb-regular: IBMPlexSansRegular, $secure-fonts;
+$font-imb-semi: IBMPlexSansSemi, $secure-fonts;
+
+
+
 $font-archivo-black: ArchivoBlack, $secure-fonts;
 $font-roboto-regular: RobotoRegular, $secure-fonts;
 $font-roboto-bold: RobotoBold, $secure-fonts;

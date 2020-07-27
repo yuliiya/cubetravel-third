@@ -1,10 +1,11 @@
 .main {
 
   &__title {
-    font-family: $font-archivo-black;
-    font-size: 40px;
-    line-height: 1;
-    letter-spacing: -0.2px;
+    font-family: $font-barlow;
+    font-size: 72px;
+    font-stretch: condensed;
+    line-height: 0.83;
+    letter-spacing: -0.25px;
     color: $basic-black;
 
     &--mb {

@@ -9,7 +9,7 @@
   justify-content: space-between;
   width: 100%;
   font-size: 14px;
-  font-family: $font-roboto-bold;
+  font-family: $font-ibm-medium;
   line-height: 1.71;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -27,29 +27,16 @@
     &:not(:last-of-type) {
       position: relative;
       margin-right: 48px;
-
-      &:hover {
-
-        &:before {
-          position: absolute;
-          content: '→';
-          color: $light-grey-blue;
-          font-family: $font-archivo-black;
-          left: -15px;
-          top: 40%;
-          transform: translateY(-50%);
-        }
-      }
     }
   }
 
   .nav-link {
-    color: $basic-white !important;
+    color: $basic-black !important;
     padding: 0;
 
     &:hover {
       text-decoration: none;
-      color: $light-grey-blue !important;
+      color: $bluish-gray !important;
     }
 
     &.active,
@@ -62,7 +49,7 @@
   &__button {
     padding: 8px 36px;
     cursor: pointer;
-    border: 1px solid $light-grey-blue;
+    border: 1px solid $basic-black;
 
     .nav-link {
       padding: 0;
