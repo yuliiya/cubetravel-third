@@ -1,7 +1,7 @@
 .details {
   $root: &;
   position: relative;
-  min-height: 700px;
+  min-height: 800px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -23,6 +23,7 @@
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
     background-color: rgba(20, 29, 32, 0.5);
+    margin-bottom: 16px;
   }
 
 }
