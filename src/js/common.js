@@ -10,7 +10,7 @@ $(function() {
     .setPin("#pin2")
     .addTo(controller);
 
-  new ScrollMagic.Scene({triggerElement: "#trigger3", duration: 600, offset: 0})
+  new ScrollMagic.Scene({triggerElement: "#trigger3", duration: 700, offset: 0})
     .setPin("#pin3")
     .addTo(controller);
 

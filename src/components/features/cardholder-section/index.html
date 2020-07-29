@@ -1,15 +1,19 @@
 <div class="container-xl cardholder padding-100">
-  <div class="row cardholder__row" id="trigger3">
-    @include('components/shared/common/simple-card/index.html')
-    @include('components/shared/common/simple-card/simple_card_2.html')
-    @include('components/shared/common/simple-card/index.html')
+  <div class="row" id="trigger3">
+    <div class="col-md-4 cardholder__col-left">
+      @include('components/shared/common/simple-card/index.html')
+      @include('components/shared/common/simple-card/simple_card_2.html')
+    </div>
+    <div class="col-md-4">
+      @include('components/shared/common/simple-card/index.html')
+      @include('components/shared/common/simple-card/index.html')
+    </div>
+    <div class="col-md-4 cardholder__col-right">
+      @include('components/shared/common/simple-card/index.html')
+      @include('components/shared/common/simple-card/simple_card_2.html')
+    </div>
   </div>
-  <div class="row cardholder__row">
-    @include('components/shared/common/simple-card/index.html')
-    @include('components/shared/common/simple-card/index.html')
-    @include('components/shared/common/simple-card/simple_card_2.html')
-  </div>
-  <div class="cardholder__btn">
+  <div class="text-center">
     <button class="custom-btn">find more fun</button>
   </div>
 </div>
