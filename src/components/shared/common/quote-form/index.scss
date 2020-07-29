@@ -19,11 +19,16 @@
     text-align: center;
   }
 
+  &__number {
+    border: 1px solid $bluish-gray;
+    width: 160px;
+  }
+
   &__input {
     width: 60px;
   }
 
   &__date {
-    width: 125px;
+    width: 160px;
   }
 }

@@ -2,24 +2,28 @@
   $root: &;
 
   background: url('../../../assets/img/sea.jpg');
+  overflow: hidden;
 
   &__form,
   &__social {
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 500px !important;
   }
 
   &__form {
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
     background-color: rgba(20, 29, 32, 0.5);
-    flex-direction: column;
+    display: flex;
+    align-items: center;
   }
 
   &__social {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.75);
+    margin-left: 0 !important;
   }
 }

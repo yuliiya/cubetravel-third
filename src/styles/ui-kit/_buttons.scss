@@ -23,6 +23,7 @@
   transition: box-shadow 0.3s;
 
   &:hover {
+    text-decoration: none;
     box-shadow: 4px 4px 0 0 rgba($basic-black, 0.2);
   }
 
@@ -46,8 +47,10 @@
     height: 50px;
     min-width: 50px;
     padding: 0;
-    background-color: $basic-black;
+    background-color: $white;
     flex-shrink: 0;
+    box-shadow: none;
+    cursor: pointer;
 
     &:focus {
       outline: none;
@@ -57,5 +60,15 @@
       width: 16px;
       height: 16px;
     }
+
+    &:hover {
+      box-shadow: none;
+    }
+  }
+
+  &--white {
+    background-color: $basic-white;
+    color: $basic-black;
+    box-shadow: 8px 8px 0 0 rgba($basic-black, 0.5);
   }
 }

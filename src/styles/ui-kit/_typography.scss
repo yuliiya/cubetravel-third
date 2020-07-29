@@ -19,8 +19,12 @@
     font-stretch: condensed;
     line-height: 1.17;
 
+    &--mb {
+      margin-bottom: 50px;
+    }
+
     &--white {
-      color: $white;
+      color: $basic-white;
     }
   }
 
@@ -34,7 +38,7 @@
     margin-bottom: 0;
 
     &--white {
-      color: $white;
+      color: $basic-white;
     }
   }
 
@@ -48,20 +52,12 @@
     text-transform: uppercase;
 
     &--white {
-      color: $white;
+      color: $basic-white;
     }
 
-    //&--accent {
-    //  color: $mocha;
-    //}
-    //
     &--primary {
       color: $light-grey-blue;
     }
-
-    //&--secondary {
-    //  color: $gunmetal;
-    //}
 
   }
 
@@ -74,7 +70,7 @@
     margin-bottom: 0;
 
     &--white {
-      color: $white;
+      color: $basic-white;
     }
   }
 

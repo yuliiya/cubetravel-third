@@ -8,7 +8,10 @@ $(function() {
 
   new ScrollMagic.Scene({triggerElement: "#trigger2", duration: 300, })
     .setPin("#pin2")
-    .addIndicators({name: "2 (duration: 0)"}) // add indicators (requires plugin)
+    .addTo(controller);
+
+  new ScrollMagic.Scene({triggerElement: "#trigger3", duration: 600, offset: 0})
+    .setPin("#pin3")
     .addTo(controller);
 
 });

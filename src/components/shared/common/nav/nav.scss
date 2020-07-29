@@ -26,7 +26,7 @@
 
     &:not(:last-of-type) {
       position: relative;
-      margin-right: 48px;
+      margin-right: 42px;
     }
   }
 
@@ -47,7 +47,7 @@
   }
 
   &__button {
-    padding: 8px 36px;
+    padding: 8px 24px;
     cursor: pointer;
     border: 1px solid $basic-black;
 
