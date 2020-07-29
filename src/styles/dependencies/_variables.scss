@@ -4,16 +4,9 @@
 
 // Colors
 $white:           #fff;
-$black:           #000;
 $basic-black:     #141d20;
 $basic-white:     #f2f4f8;
-$light-peach:     #f6d3b9;
 $light-grey-blue: #abc6cb;
-$woodsmoke:       #111212;
-$mocha:           #a27656;
-$gunmetal:        #3f5458;
-
-
 $bluish-gray:     #75969d;
 $light-blue:     #f4fafc;
 $athens-gray:     #ebedf3;
@@ -25,11 +18,6 @@ $font-ibm-medium: IBMPlexSansMedium, $secure-fonts;
 $font-imb-regular: IBMPlexSansRegular, $secure-fonts;
 $font-imb-semi: IBMPlexSansSemi, $secure-fonts;
 
-
-
-$font-archivo-black: ArchivoBlack, $secure-fonts;
-$font-roboto-regular: RobotoRegular, $secure-fonts;
-$font-roboto-bold: RobotoBold, $secure-fonts;
 $default-font-size: 16px;
 
 // =============================================================================
@@ -39,5 +27,5 @@ $default-font-size: 16px;
 // body
 $body-bg: $white;
 $body-color: $basic-black;
-$body-font-family: $font-archivo-black;
+$body-font-family: $font-imb-semi;
 $body-font-size: $default-font-size;
