@@ -21,7 +21,8 @@
 
   &__number {
     border: 1px solid $bluish-gray;
-    width: 160px;
+    max-width: 160px;
+    width: 100%;
   }
 
   &__input {
@@ -29,6 +30,7 @@
   }
 
   &__date {
-    width: 160px;
+    max-width: 160px;
+    width: 100%;
   }
 }

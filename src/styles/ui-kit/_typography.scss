@@ -80,5 +80,9 @@
     line-height: 1.33;
     letter-spacing: 0.2px;
     color: $basic-black;
+
+    &--white {
+      color: $basic-white;
+    }
   }
 }
