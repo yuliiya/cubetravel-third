@@ -2,6 +2,8 @@
   $root: &;
 
   background: url('../../../assets/img/sea_lg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow: hidden;
 
   &__form,
