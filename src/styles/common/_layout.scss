@@ -8,7 +8,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  //min-width: map-get($container-max-widths, xs);
 
   &__section {
     display: flex;
@@ -50,10 +49,6 @@
   min-height: 360px;
 }
 
-.bg-gb {
-  background-color: $light-grey-blue;
-}
-
 .bg-basic-black {
   background-color: $basic-black;
 }
@@ -62,20 +57,6 @@
   background-color: $basic-white;
 }
 
-.parallax-window {
-  position: relative;
-  min-height: 1600px;
-  background: transparent;
-}
-
 .bg-light-blue {
   background-color: $light-blue;
-}
-
-.parallax-window {
-  min-height: 1500px;
-}
-
-.parallax {
-  min-height: 800px;
 }

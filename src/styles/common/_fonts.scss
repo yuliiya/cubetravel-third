@@ -1,8 +1,4 @@
 // font-face mixin
-@include font-face(ArchivoBlack, fonts/ArchivoBlack-Regular, normal, normal, eot woff2 woff);
-@include font-face(RobotoBold, fonts/Roboto-Bold, 700, normal, eot woff2 woff);
-@include font-face(RobotoRegular, fonts/Roboto-Regular, normal, normal, eot woff2 woff);
-
 @include font-face(BarlowBold, fonts/BarlowCondensed-Bold, 700, normal, eot woff2 woff);
 @include font-face(IBMPlexSansMedium, fonts/IBMPlexSans-Medium, 500, normal, eot woff2 woff);
 @include font-face(IBMPlexSansRegular, fonts/IBMPlexSans-Regular, normal, normal, eot woff2 woff);
